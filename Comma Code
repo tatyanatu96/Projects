@@ -1,0 +1,5 @@
+def func(food):
+    if len(food)==0:
+        print('Your list is empty')
+    else:
+        print(', '.join(food[:-1]) + ', and ' + food[-1])
