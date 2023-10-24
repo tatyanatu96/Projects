@@ -10,7 +10,7 @@ def func(food):
         print(', '.join(food[:-1]) + ', and ' + food[-1])
 
 
-----------------------------------
+-------------------------------------------------------------------------------------------
 def func(food):
     if len(food)==0:
         raise ValueError('List cannot be empty')
